@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+}
+
+/* Los bordes van solo en los bloques de color (no en .row ni .container-fluid) */
+section,
+aside{
+    border: 4px solid black;
+}
+
+section{
+    background-color: #FFFC00; /* amarillo del diseño */
+}
+
+aside{
+    background-color: #9A0086; /* morado del diseño */
+}
+
+.altura{
+    height: 140px;
+}
